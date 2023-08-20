@@ -1,0 +1,40 @@
+  body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: #a06060;
+    text-shadow: 3px 5px red;
+    color: #fff;
+  }
+  .button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    background-image: url(./drum1.webp);
+    background-attachment: fixed;
+    background-size: contain;
+    height: 100px;
+    background-clip: inherit;
+    background-position: right;
+    width: 100px;
+    border-radius: 10px;
+    border: 9px solid #8d8888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.section{
+    display: flex;
+}
+
+.heading{
+    text-align:center ;
+    margin-top: 10%;
+    font-size: 350%;
+    margin-bottom: 7%;
+}
